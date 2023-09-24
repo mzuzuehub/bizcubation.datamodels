@@ -20,6 +20,9 @@ namespace Bizcubation.DataModels.DTOs
         [Display(Name = "Program Name")]
         public string ProgramName { get; set; }
 
+        [Display(Name = "Session DEscription")]
+        public string SessionDescription { get; set; }
+
         [Display(Name = "Order")]
         public int Order { get; set; }
     }
